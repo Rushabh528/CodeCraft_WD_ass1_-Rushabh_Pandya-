@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+#title, #description{
+    margin: 10px;
+}
+
+.todoButton{
+    border-radius: 8px;
+    background-color: bisque;
+    border-color: brown;
+    height: 40px;
+    width: 80px;
+    font-size: large
+}
+
+h3{
+    color: chocolate;
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.469);
+}
+
+label{
+font-size: 20px;
+    color: brown;
+}
+
+input{
+    height:40px ;
+    width:300px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: rgb(30, 48, 210);
+    color: purple;
+    background-color: rgb(224, 42, 66);
+    
+}
+#add,#delete{
+    margin: 10px;
+    border-radius: 8px;
+    background-color: greenyellow;
+    border-color: green;
+    height: 40px;
+    width: 100px;
+    font-size: large
+}
+
+#delete{
+    background-color: red;
+    border-color: rgb(229, 69, 69);
+    width: 150px;
+}
+
+
+input::placeholder{
+    color: rgb(235, 132, 132);
+}
+
+.toggle{
+    background-color: green;
+}
